@@ -14,6 +14,7 @@
 		A8886F501E49B256008DC75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8886F4F1E49B256008DC75D /* Assets.xcassets */; };
 		A8886F531E49B256008DC75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8886F511E49B256008DC75D /* LaunchScreen.storyboard */; };
 		A8886F5D1E49B286008DC75D /* NSMutableArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A8886F5C1E49B286008DC75D /* NSMutableArray+Extension.m */; };
+		A8886F601E49BDFD008DC75D /* LogClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A8886F5F1E49BDFD008DC75D /* LogClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A8886F541E49B256008DC75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8886F5B1E49B286008DC75D /* NSMutableArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Extension.h"; sourceTree = "<group>"; };
 		A8886F5C1E49B286008DC75D /* NSMutableArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Extension.m"; sourceTree = "<group>"; };
+		A8886F5E1E49BDFD008DC75D /* LogClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogClassInfo.h; sourceTree = "<group>"; };
+		A8886F5F1E49BDFD008DC75D /* LogClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogClassInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				A8886F5B1E49B286008DC75D /* NSMutableArray+Extension.h */,
 				A8886F5C1E49B286008DC75D /* NSMutableArray+Extension.m */,
+				A8886F5E1E49BDFD008DC75D /* LogClassInfo.h */,
+				A8886F5F1E49BDFD008DC75D /* LogClassInfo.m */,
 			);
 			name = code;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				A8886F4B1E49B256008DC75D /* ViewController.m in Sources */,
 				A8886F481E49B256008DC75D /* AppDelegate.m in Sources */,
 				A8886F451E49B256008DC75D /* main.m in Sources */,
+				A8886F601E49BDFD008DC75D /* LogClassInfo.m in Sources */,
 				A8886F5D1E49B286008DC75D /* NSMutableArray+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +330,7 @@
 				A8886F591E49B256008DC75D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,13 @@
 //
-//  NSMutableArray+Extension.h
+//  LogClassInfo.h
 //  WXXRuntime
 //
 //  Created by linxiaolong on 2017/2/7.
 //  Copyright © 2017年 wengxianxun. All rights reserved.
 //
-// 扩展： 使用runtime的方法替换实现addobject空值导致奔溃的拦截
+// 使用rumtime打印类的各种数据
 #import <Foundation/Foundation.h>
 
-@interface NSMutableArray(Extension)
-
+@interface LogClassInfo : NSObject
+-(void)LogInfo;
 @end
